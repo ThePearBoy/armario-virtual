@@ -7,6 +7,7 @@ junitVersion = "1.1.5"
 espressoCore = "3.5.1"
 appcompat = "1.6.1"
 material = "1.10.0"
+composeCompiler = "1.5.15"
 
 # Opcional: versiones Compose
 composeUi = "1.9.2"
@@ -32,3 +33,4 @@ androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-toolin
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
